@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	text-align: center;
+	background: #223232;
+	color: white;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#sponge{
+	font-size: 50px;
+
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+.dir{
+	color: white;
+}
+
+.dir:hover{
+	color: pink;
+}
+
+#time{
+	font-size: 60px;
+}
+
+#pink{
+	height: 300px;
+	width: 300px;
+	border: 5px solid white;
+	border-radius: 100%;
+	margin: auto;
+	cursor: pointer;
+}
+
+#middle{
+	margin: 30% auto;
+}
+
+a:hover{
+	cursor:pointer;
+	text-decoration:none;
+}
+
+#labels{
+	font-size: 20px;
+}
+
+.test{
+	text-decoration: underline;
+}
+
+button{
+	width: 120px;
+	height: 50px;
+	margin-top: 10px;
+	border-radius: 15px;
+	font-size: 25px;
+	background-color: rgb(85, 85, 85);
+}

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url(assets/sunny.jpg) no-repeat;
+	background-position:center;
+}
+
+P{
+	font-size: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	margin-bottom: 50px;
+	color: white;
+}
+
+P:hover{
+	cursor: pointer;
+	color: red;
+}
+
+h1{
+	padding-top: 100px;
+	margin-bottom: 25px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	font-size: 50px;
+	color: rgba(255,255,255,.60);
+}
+h2{
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: 15px;
+	float: right;
+}
+#city{
+	background-color: rgba(255,255,255,.60);
+	border-radius: 15px;
+	padding: 15px;
+	margin: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#Wtype{
+	background-color: rgba(255,255,255,.60);
+	border-radius: 15px;
+	padding: 15px;
+	margin: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#humidity{
+	background-color: rgba(255,255,255,.60);
+	border-radius: 15px;
+	padding: 15px;
+	margin: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#weather{
+	margin-top: 100px;
+}

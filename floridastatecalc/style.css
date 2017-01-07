@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Keania+One);
+
+body{
+	text-align:center;
+	background-color: gray;
+}
+
+.text{
+	text-align: right;
+	letter-spacing: 2px;
+	font-family: 'Keania One', Arial, serif;
+	}
+
+input{
+	width: 250px;
+	height: 36px;
+	margin: 20px 0px 10px 0px;
+	background-color: rgba(255,255,255,.40);
+	border: none;
+	border-radius: 5px;
+}
+
+.btn-lg{
+	color: #540115;
+	background-color: #C3B89C;
+	width: 60px;
+	margin: 1px;
+}
+
+.btn-lg:focus{
+	outline: none;
+}
+
+img{
+	width: 180px;
+	height: 150px;
+	position:relative;
+	border-radius: 10px;
+	margin-top: 2px;
+}
+#pump{
+	width: 250px;
+	height: 160px;
+	border-radius: 15px;
+}
+
+#pic{
+	width: 250px;
+	height: 160px;
+	background-color: #C3B89C;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 15px;
+	border: 2px solid black;
+	}
+
+#cal_buttons{
+	background-color: #540115;
+	border-radius: 15px;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	top: 0;              /*top, right, left, and bottom pertain to position property. Work according to...*/
+	left: 0;             /*...position attribute. In this case, absolute.*/
+	right: 0;
+	bottom: 0;
+	width: 280px;
+	height: 500px;
+	box-shadow: 3px 3px 0px 0px;
+}
+
+@media(max-width: 433px){
+.btn-lg{
+	width: 80px;
+	height: 60px;
+	margin: 2px;
+}
+
+input{
+	width: 350px;
+}
+
+#pic{
+	width: 350px;
+	margin-top: 5px;
+	}
+
+#pump{
+	width: 350px;
+	height: 160px;
+	border-radius: 15px;
+}
+
+#cal_buttons{
+	width: 100%;
+	height: 100%;
+	box-shadow: none;
+	border-radius: 0px;
+}
+}

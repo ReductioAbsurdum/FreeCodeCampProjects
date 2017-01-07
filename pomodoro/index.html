@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pomodoro Clock</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../js/jquery-3.1.0.min.js"><\/script>')</script>
+<script src="javascript.js"></script>
+</head>
+
+<body>
+  <h1>Pomodoro Clock!</h1>
+  <div id="labels" class="row">
+    <p class="test col-sm-3 col-sm-offset-3 col-xs-6">Set Interval</p>
+    <p class="test col-sm-3 col-xs-6">Set Countdown</p>
+  </div>
+  <div id="sponge" class="row">
+    <p class="col col-sm-1 col-sm-offset-3 col-xs-2"><a class="dir" id="down1">-</a></p>
+    <p class="col-sm-1 col-xs-2" id="break">Break</p>
+    <p class="col-sm-1 col-xs-2"><a class="dir" id="up1">+</a></p>
+    <p class="col-sm-1 col-xs-2"><a class="dir" id="down">-</a></p>
+    <p id="set" class="col-sm-1 col-xs-2">Set</p>
+    <p class="col-sm-1 col-xs-2"><a class="dir" id="up">+</a></p>
+  </div>
+
+  <div id="pink">
+    <div id="middle">
+      <h3>Your Session:</h3>
+      <p id="time">TIME!</p>
+    </div>
+  </div>
+
+  <button onClick="reset();">Reset</button>
+  
+</body>
+</html>
